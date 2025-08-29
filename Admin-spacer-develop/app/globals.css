@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 0 0% 9% !important;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: red;
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 0% 3.9%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+    --input-bg:#342f2f;
+  }
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 14.9%;
+    --muted-foreground: red;
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 83.1%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+
+.css-12w9als{
+  font-size: 0.75rem !important;
+}
+.css-dip3t8{
+  padding-left:0.6rem !important;
+  padding-right:0.6rem !important;
+  height: 100% !important;
+}
+
+.css-wx7wi4 {
+  width: 35px;
+  min-width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 2px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex
+;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin-right: 0px !important;
+}
+.css-1awrs4z {
+  width: 100%;
+  position: relative;
+  margin-top: 0.5rem !important;
+}
+.css-dip3t8 {
+  position: relative;
+  height: 100vh !important;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 3;
+  background-color: #ffffff !important;
+}
+.select-trigger:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.focus\:ring-2:focus {
+  --tw-ring-offset-shadow: none !important;
+  --tw-ring-shadow:none !important;
+  box-shadow: none !important;
+}
+/* Hide scrollbar for modern browsers */
+.element {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+
+  /* For Chrome, Safari, and Opera */
+  overflow-y: scroll; /* Optional: Keep scrolling enabled */
+}
+
+.element::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+[data-radix-popper-content-wrapper] {
+  z-index: 60 !important;
+}
+
+.css-19b1b3q, .css-2ypoc0{
+  margin-bottom:0.23rem !important;
+}
+.focus-visible\:ring-ring:focus-visible {
+  --tw-ring: none !important; 
+}
+.tiptap{
+  --tw-ring: none !important; 
+  --tw-ring-offset-shadow: none !important;
+  --tw-ring-shadow:none !important;
+  box-shadow: none !important;
+}
+
+
+
+
+
+@media (min-width: 768px){
+  .css-1awrs4z {
+    width: 100%;
+    position: relative;
+    margin-top: 0.2rem !important;
+  }
+}
