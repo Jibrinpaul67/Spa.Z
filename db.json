@@ -1,0 +1,204 @@
+{
+  "registration": [
+    {
+      "id": "5a48",
+      "organizationName": "spacertty",
+      "organizationCustomUrl": "spacer.com",
+      "employeeCount": 101,
+      "departmentId": 8,
+      "firstName": "yinka",
+      "lastName": "segun",
+      "email": "superadmin@amabillsweb.com",
+      "phoneNumber": "+2348101831001",
+      "password": "@G900uperadminpassword"
+    },
+    {
+      "id": "d030",
+      "email": "owner@example.com",
+      "password": "securepassword123",
+      "firstName": "John",
+      "lastName": "Doe",
+      "phoneNumber": "+1234567890",
+      "organizationName": "Example Corp",
+      "organizationCustomUrl": "example-corp",
+      "employeeCount": 50,
+      "departmentId": 1
+    },
+    {
+      "id": "f9e1",
+      "organizationName": "spacer",
+      "organizationCustomUrl": "spacer.com",
+      "employeeCount": 50,
+      "departmentId": 1,
+      "firstName": "yinka",
+      "lastName": "segun",
+      "email": "oluwasegun@gmail.com",
+      "phoneNumber": "+2348101831001",
+      "password": "Yinka@002"
+    },
+    {
+      "id": "6922",
+      "organizationName": "spacer",
+      "organizationCustomUrl": "spacer.com",
+      "employeeCount": 50,
+      "departmentId": 1,
+      "firstName": "yinka",
+      "lastName": "segun",
+      "email": "oluwasegun@gmail.com",
+      "phoneNumber": "+2348101831001",
+      "password": "Yinka@002"
+    },
+    {
+      "id": "787f",
+      "organizationName": "spacer",
+      "organizationCustomUrl": "spacer.com",
+      "employeeCount": 50,
+      "departmentId": 1,
+      "firstName": "yinka",
+      "lastName": "segun",
+      "email": "oluwasegun@gmail.com",
+      "phoneNumber": "+2348101831001",
+      "password": "Yinka@002"
+    }
+  ],
+  "spaces": [
+    {
+      "id": "fd7e",
+      "name": [
+        "firstfloor",
+        "secondfloorx2",
+        "thirdfloorx3"
+      ]
+    },
+    {
+      "id": "6944",
+      "name": [
+        "firstfloor"
+      ]
+    },
+    {
+      "id": "ac6a",
+      "name": [
+        "firstfloor"
+      ]
+    },
+    {
+      "id": "75fc",
+      "name": [
+        "firstfloor"
+      ]
+    },
+    {
+      "0": {
+        "name": "firstfloor"
+      },
+      "id": "3652"
+    },
+    {
+      "0": {
+        "name": "firstfloor"
+      },
+      "1": {
+        "name": "secondfloorx2"
+      },
+      "2": {
+        "name": "thirdfloorx3"
+      },
+      "id": "3476"
+    }
+  ],
+  "users": [
+    {
+      "id": "3d35",
+      "firstname": "Oluwasegun Yinka",
+      "lastname": "Akinseye",
+      "organization": "Amabills Technologies",
+      "email": "oluwasegunyinka.samuel@gmail.com",
+      "telephone": "08101831001",
+      "tag": "tag2"
+    },
+    {
+      "id": "a15e",
+      "firstname": "Oluwasegun Yinka",
+      "lastname": "Akinseye",
+      "organization": "Amabills ",
+      "email": "oluwasegunyinka.samuel@gmail.com",
+      "telephone": "08101831001",
+      "tag": "tag1, tag3"
+    },
+    {
+      "id": "0665",
+      "firstname": "segun",
+      "lastname": "yinka",
+      "organization": "Amabills Technologies",
+      "email": "samuel@gmail.com",
+      "telephone": "08101831001",
+      "tag": "tag3"
+    },
+    {
+      "id": "ade4",
+      "firstname": "Oluwasegun Yinka",
+      "lastname": "Akinseye",
+      "organization": "Amabills Technologies",
+      "email": "oluwasegunyinka.samuel@gmail.com",
+      "telephone": "08101831001",
+      "tag": "tag2, tag1"
+    },
+    {
+      "id": "f3e4",
+      "firstname": "Oluwasegun Yinka",
+      "lastname": "Akinseye",
+      "organization": "Amabills Technologies",
+      "email": "oluwasegunyinka.samuel@gmail.com",
+      "telephone": "08101831001",
+      "tag": "tag2, tag4"
+    }
+  ],
+  "availabilityhour": [
+    {
+      "id": "eb33",
+      "from": "06:15",
+      "to": null
+    },
+    {
+      "id": "5903",
+      "from": "06:15",
+      "to": null
+    },
+    {
+      "id": "5aad",
+      "from": "06:15",
+      "to": "19:18"
+    },
+    {
+      "id": "1629",
+      "from": null,
+      "to": null
+    },
+    {
+      "id": "23b5",
+      "from": "07:06",
+      "to": null
+    },
+    {
+      "id": "b5fc",
+      "from": "07:00",
+      "to": null
+    },
+    {
+      "id": "ab6f",
+      "from": "07:00",
+      "to": "07:00"
+    },
+    {
+      "id": "a2dc",
+      "from": "19:02",
+      "to": "10:02"
+    },
+    {
+      "id": "643a",
+      "from": "19:02",
+      "to": "16:07"
+    }
+  ]
+}
